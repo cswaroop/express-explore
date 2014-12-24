@@ -18,10 +18,10 @@ This will bring a new command `express` in your console.  Use it to create a new
 Routes
 ======
 
-* /stooges/[name]
+* `/stooges/[name]`
   Expecting the name of one of the stooges as input
-* /stooges/
+* `/stooges/`
   A fallback from the previous route, in case the name provided was not found
-* /
+* `/`
   A default route used to access the application's home page
 
